@@ -1,3 +1,36 @@
-*{
-    background-color: red;
+html, body{
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+li{
+    display: list-item;
+    
+}
+
+.nav-link{
+
+    background: rgb(206, 193, 193);
+    font-size: 20px;
+    list-style-type: none;
+        
+}
+
+.navbar > ul >li{
+    list-style-type: none;
+}
+
+.main-section{
+    margin: 40px;
+    padding: 40px;
+}
+
+code{
+    padding: 20px;
+    margin: 20px;
+    font-size: 15px;
+}
+header{
+    font-size: 20px;
+    font-weight: bold;
 }
